@@ -13,16 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModernUINavigationApp.Pages
+namespace Solution.Pages.Settings
 {
     /// <summary>
-    /// Interaction logic for Home.xaml
+    /// Interaction logic for About.xaml
     /// </summary>
-    public partial class Home : UserControl
+    public partial class About : UserControl
     {
-        public Home()
+        public About()
         {
-            //InitializeComponent();
+            InitializeComponent();
         }
     }
 }

@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModernUINavigationApp.Pages
+namespace Solution.Pages
 {
     /// <summary>
     /// Interaction logic for Home.xaml
@@ -22,7 +22,7 @@ namespace ModernUINavigationApp.Pages
     {
         public Home()
         {
-            //InitializeComponent();
+            InitializeComponent();
         }
     }
 }

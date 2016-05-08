@@ -13,16 +13,19 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace ModernUINavigationApp.Pages
+namespace Solution.Pages.Settings
 {
     /// <summary>
-    /// Interaction logic for Home.xaml
+    /// Interaction logic for Appearance.xaml
     /// </summary>
-    public partial class Home : UserControl
+    public partial class Appearance : UserControl
     {
-        public Home()
+        public Appearance()
         {
-            //InitializeComponent();
+            InitializeComponent();
+
+            // create and assign the appearance view model
+            this.DataContext = new AppearanceViewModel();
         }
     }
 }
